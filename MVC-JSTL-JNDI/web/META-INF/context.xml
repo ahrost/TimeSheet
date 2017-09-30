@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+ <Context>
+    <Resource name="jdbc/havij"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="amirsam"
+              password="myjava123"
+              driverClassName="oracle.jdbc.driver.OracleDriver"
+              url="jdbc:oracle:thin:@localhost:1521:orcl"
+              maxActive="10"
+              maxIdle="4"/>
+
+  </Context>
